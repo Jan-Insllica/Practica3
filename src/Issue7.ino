@@ -1,8 +1,8 @@
 #include <WiFi.h>
 #include <WebServer.h>
 
-const char* ssid = "ProjectesSMX";
-const char* password = "Hola1234";
+const char* ssid = "Jan";
+const char* password = "Jan12345678";
 
 WebServer server(80);
 
@@ -49,7 +49,7 @@ void credits() {
   server.send(
     200,
     "text/html",
-    "<h1>Fet per Dani</h1><a href='/'>Tornar</a>"
+    "<h1>Fet per Jan</h1><a href='/'>Tornar</a>"
   );
 }
 
