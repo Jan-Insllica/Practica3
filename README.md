@@ -1,10 +1,10 @@
-# Pràctica 3 – Dashboard de monitorització d’un CPD
+Pràctica 3 – Dashboard de monitorització d’un CPD
 
-## Finalitat
+Finalitat
 
 Desenvolupar un sistema de monitorització per a una sala de servidors (CPD) utilitzant una placa ESP32 com a servidor web, permetent consultar les dades ambientals en temps real des d’un navegador i generar alertes visuals davant situacions de risc.
 
-## Resum del projecte
+Resum del projecte
 
 L’ESP32 es connecta a la xarxa WiFi i crea un servidor web accessible des de qualsevol dispositiu de la mateixa xarxa.
 
@@ -16,7 +16,7 @@ Quan la temperatura supera els 24 °C, el sistema activa una alerta canviant el 
 
 També s’ha implementat una pàgina secundària de crèdits accessible des de l’adreça "/credits".
 
-## Funcionalitats implementades
+Funcionalitats implementades
 
 * Connexió de l’ESP32 a una xarxa WiFi.
 * Creació d’un servidor web al port 80.
@@ -27,7 +27,7 @@ També s’ha implementat una pàgina secundària de crèdits accessible des de 
 * Activació automàtica d’un LED d’alerta.
 * Pàgina secundària de crèdits.
 
-## Seguiment del projecte
+Seguiment del projecte
 
 El seguiment de les tasques s’ha realitzat mitjançant un tauler Kanban a GitHub amb les columnes:
 
@@ -37,7 +37,7 @@ El seguiment de les tasques s’ha realitzat mitjançant un tauler Kanban a GitH
 
 Cada funcionalitat del projecte s’ha gestionat mitjançant una Issue independent.
 
-## Resultat final
+Resultat final
 
 El sistema permet monitoritzar en temps real les condicions ambientals d’una sala de servidors a través d’una interfície web accessible des de la xarxa local.
 
