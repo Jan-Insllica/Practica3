@@ -104,7 +104,7 @@ void credits() {
   String html = "<html><head><meta charset='UTF-8'></head><body>";
   html += "<h1>Crèdits</h1>";
   html += "<p>Pràctica 3 - Dashboard de monitorització CPD</p>";
-  html += "<p>Fet per Dani</p>";
+  html += "<p>Fet per Jan</p>";
   html += "<a href='/'>Tornar</a>";
   html += "</body></html>";
 
